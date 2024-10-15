@@ -1,0 +1,1342 @@
+<!DOCTYPE html><html lang="en"><head>
+		<title>Fastpay Casino's official website</title>
+		 <meta name="description" content="Play slots, blackjack and roulette ⚡️ at our real money casino! Get 15 Free Spins now at Fastpay Casino.">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link type="image/x-icon" href="images/favicon.png" rel="icon">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.min.css">
+		<link rel="canonical" href="https://yoast.com/wordpress-seo/">
+<link rel="canonical" href="/">
+<meta name="google-site-verification" content="wbY2D_KGmPLX4XUqh8PMnqnP3TPawfhN2YBx_98_y7E">
+		
+<style>
+        .container_content .logos-list {
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 0 -10px;
+            flex-direction: row;
+            grid-gap: unset;
+        }
+
+        .logos-item {
+            list-style-type: none !important;
+            padding: 0 !important;
+        }
+
+        .logos-inner {
+            display: block;
+            background: none;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .logos-inner img {
+            display: block;
+            max-width: 80px;
+            max-height: 40px;
+            width: 100%;
+            height: auto;
+        }
+
+        @media (min-width:768px) {
+            .logos-inner {
+                opacity: 0.6;
+                transition: opacity 0.3s ease;
+            }
+
+            .logos-inner:hover {
+                opacity: 1;
+            }
+        }
+
+        @media (max-width:768px) {
+            .logos-inner {
+                padding: 5px;
+            }
+
+            .logos-inner img {
+                max-height: 35px;
+            }
+        }
+
+        .payment-list {
+            margin: -5px;
+            justify-content: space-around !important;
+        }
+
+        .payment-list .logos-inner {
+            background: #161616;
+            width: 120px;
+            height: 60px;
+            margin: 5px;
+            border-radius: 10px;
+            padding: 10px;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .payment-list .logos-inner img {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        @media (min-width:768px) {
+            .payment-list .logos-inner {
+                box-shadow: 0 0 0 1px #161616;
+                transition: box-shadow 0.3s ease, opacity 0.3s ease;
+            }
+
+            .payment-list .logos-inner:hover {
+                box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.5);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .payment-list .logos-inner {
+                padding: 12px;
+                width: 110px;
+                height: 55px;
+            }
+        }
+
+        body._overflow {
+            overflow: hidden;
+        }
+
+        .bonus-list {
+            padding: 0 !important;
+            list-style-type: none;
+            display: flex;
+            flex-direction: row !important;
+            grid-gap: unset !important;
+            justify-content: center;
+            align-items: stretch;
+            flex-wrap: wrap;
+            margin: 0px -8px;
+        }
+
+        .bonus-item {
+            padding: 0 !important;
+            flex: 1 1 33.333%;
+            min-width: 330px;
+            max-width: 445px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media(max-width: 480px) {
+            .bonus-item {
+                flex: 1 1 auto;
+                min-width: unset;
+            }
+        }
+
+        .bonus-inner {
+            min-height: 230px;
+            flex: 1 1 auto;
+            position: relative;
+            margin: 8px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 12px;
+            overflow: hidden;
+
+            transition: transform 0.3s ease;
+        }
+
+        @media(min-width: 768px) {
+            .bonus-inner:hover {
+                transform: scale(1.05);
+            }
+        }
+
+        .bonus-image {
+            position: absolute;
+            z-index: 0;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .bonus-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .bonus-overlay {
+            flex: 1 1 auto;
+            position: relative;
+            padding: 20px;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .bonus-content {}
+
+        .bonus-content .subtitle {
+            color: rgba(245, 245, 245, 0.7);
+            font-size: 14px;
+            line-height: 18px;
+            text-transform: uppercase;
+        }
+
+        .bonus-overlay .bonus-content p {
+            padding: 0;
+            margin: 0;
+        }
+
+        .bonus-overlay .bonus-content h3 {
+            color: #f4f4f4;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 28px;
+            max-width: 270px;
+            padding-top: 6px;
+            text-transform: uppercase;
+        }
+
+        @media (max-width: 768px) {
+            .bonus-item {
+                max-width: 400px;
+            }
+
+            .bonus-inner {
+                min-height: 200px;
+            }
+
+            .bonus-overlay {
+                padding: 13px;
+            }
+
+            .bonus-content .subtitle {
+                font-size: 13px;
+                line-height: 16px;
+            }
+
+            .bonus-overlay .bonus-content h3 {
+                font-size: 19px;
+                line-height: 24px;
+            }
+        }
+
+        .bonus-buttons {
+            margin-top: auto;
+            display: flex;
+            align-items: center;
+        }
+
+        .bonus-buttons .button {
+            padding: 10px;
+            min-width: 110px;
+            border: none;
+        }
+
+        @media(max-width:480px) {
+            .bonus-buttons .button {
+                padding: 8px;
+                min-width: 100px;
+                font-size: 14px;
+            }
+        }
+
+        .bonus-buttons .button:not(:last-child) {
+            margin-right: 10px;
+        }
+
+        .bonus-hidden._active {
+            transition-delay: 0s;
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .bonus-hidden {
+            display: flex;
+            position: fixed;
+            z-index: 10;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.6);
+            justify-content: center;
+            align-items: center;
+            overflow-y: auto;
+            padding: 50px 20px 20px;
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
+            opacity: 0;
+            visibility: hidden;
+
+            transition: opacity 0.3s ease 0s, visibility 0s ease 0.3s;
+        }
+
+        .bonus-hidden .bonus-content {
+            position: relative;
+            margin: auto;
+            background-color: #242424;
+            border: 1px solid #98c454;
+            border-radius: 20px;
+            padding: 30px 40px;
+            max-width: 800px;
+            width: 100%;
+            cursor: default;
+        }
+
+        .bonus-hidden .close {
+            background: none;
+            border: none;
+            display: block;
+            position: absolute;
+            bottom: 100%;
+            right: 0;
+            padding: 10px 10px 8px;
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .bonus-hidden .close img {
+            display: block;
+            width: 35px;
+            height: 35px;
+        }
+
+        @media (max-width: 768px) {
+            .bonus-hidden {
+                padding: 50px 10px 10px;
+            }
+
+            .bonus-hidden .bonus-content {
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .bonus-hidden .bonus-content {
+                padding: 15px;
+            }
+        }
+
+        @media(max-width:768px) {
+
+            .content-table th,
+            .content-table td {
+                padding: 9px;
+            }
+        }
+
+        .tour-list {
+            padding: 0 !important;
+            display: flex;
+            flex-direction: row !important;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 0 -8px;
+            grid-gap: unset !important;
+        }
+
+        .tour-item {
+            list-style-type: none !important;
+            padding: 0 !important;
+            flex: 1 1 33.333%;
+            max-width: 380px;
+            min-width: 360px;
+        }
+
+        @media(max-width:480px) {
+            .tour-item {
+                flex: 1 1 100%;
+                min-width: unset;
+                max-width: unset;
+            }
+        }
+
+        .tour-inner {
+            margin: 8px;
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            background-color: #131313;
+            transition: transform 0.3s ease;
+        }
+
+        @media(min-width: 768px) {
+            .tour-inner:hover {
+                transform: scale(1.05);
+            }
+        }
+
+        .tour-tag {
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            left: 0;
+            width: 100%;
+
+            color: #f4f4f4;
+            text-align: center;
+            text-transform: uppercase;
+            background: rgba(18, 18, 18, 0.65);
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            line-height: 22px;
+            padding: 22px 12px;
+        }
+
+        .tour-image {
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+
+        .tour-image::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 68px;
+            background: linear-gradient(180deg, hsla(0, 0%, 7%, 0), #131313);
+        }
+
+        .tour-image img {
+            display: block;
+            max-width: 100%;
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .tour-timer {
+            position: relative;
+            z-index: 1;
+            margin-top: -50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .label {
+            color: #f4f4f4;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14px;
+            padding-bottom: 20px;
+        }
+
+        .tour-numbers {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .tour-numbers>div {
+            height: 57px;
+            width: 66px;
+            padding: 5px;
+            background-color: #1c1c1c;
+            border: 1px solid #98c454;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .tour-numbers>div>div {
+            text-align: center;
+            font-size: 12px;
+            line-height: 12px;
+        }
+
+        .tour-numbers .num {
+            font-size: 22px;
+            line-height: 24px;
+            padding-top: 3px;
+            font-weight: 700;
+        }
+
+        .delim {
+            color: #f4f4f4;
+            font-size: 17px;
+            margin: 0 5px;
+        }
+
+        @media (max-width:480px) {
+            .tour-numbers>div {
+                height: 55px;
+                width: 60px;
+                padding: 3px;
+            }
+
+            .tour-numbers .num {
+                font-size: 18px;
+                line-height: 22px;
+            }
+
+            .delim {
+                font-size: 14px;
+                margin: 0 2px;
+            }
+        }
+
+        @media (max-width:380px) {
+            .tour-numbers>div {
+                height: 50px;
+                width: 55px;
+            }
+        }
+
+        .tour-footer {
+            margin-top: 28px;
+            padding: 15px;
+        }
+
+        .tour-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .tour-footer .tour-content {
+            margin-bottom: 15px;
+        }
+
+        .tour-content .subtitle {
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: .02em;
+            line-height: 1.55;
+        }
+
+        .tour-footer .tour-content h3 {
+            color: #98c454;
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: .04em;
+            line-height: 1.25;
+        }
+
+        .tour-prizes {
+            grid-gap: unset !important;
+            padding: 0 !important;
+            display: flex;
+            flex-direction: row !important;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .tour-footer .tour-prizes {
+            margin-bottom: 15px;
+        }
+
+        .tour-prizes .prize {
+            list-style-type: none !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .tour-prizes .prize>img {
+            max-width: 28px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 4px;
+        }
+
+        .tour-prizes .prize>div {
+            color: #f4f4f4;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .tour-rules {
+            grid-gap: unset !important;
+            padding: 0 !important;
+            list-style-type: none;
+            display: flex;
+            flex-direction: row !important;
+            align-items: center;
+        }
+
+        .tour-rules .rule {
+            list-style-type: none !important;
+            flex: 1 1 100%;
+            background-color: #1c1c1c;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .tour-rules .rule:not(:last-child) {
+            margin-right: 15px;
+        }
+
+        .tour-rules .rule img {
+            display: block;
+            width: 28px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .tour-rules .column div {
+            color: #c8c8c8;
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: .02em;
+            line-height: 1.55;
+            text-transform: capitalize;
+        }
+
+        .tour-rules .column .val {
+            color: #98c454;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 1.25;
+        }
+
+        .tour-buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .tour-buttons .button:not(:last-child) {
+            margin-right: 15px;
+        }
+
+        .tour-buttons .button {
+            width: 100%;
+            border: none;
+        }
+
+        @media (max-width: 480px) {
+            .tour-buttons .button {
+                min-width: unset;
+                padding: 10px;
+                font-size: 14px;
+            }
+        }
+
+        .bonus-hidden p {
+            padding: 5px 0;
+            margin-bottom: 10px;
+        }
+
+        .bonus-hidden h3 {
+            font-size: 22px;
+            line-height: 26px;
+            padding: 5px 0;
+            margin-bottom: 10px;
+        }
+
+        .bonus-hidden h4 {
+            font-size: 20px;
+            line-height: 22px;
+            padding: 5px 0;
+            margin-bottom: 10px;
+        }
+
+        .bonus-hidden ul {
+            margin-bottom: 10px;
+        }
+
+        @media(max-width:768px) {
+            .bonus-hidden h3 {
+                font-size: 18px;
+                line-height: 22px;
+                margin-bottom: 5px;
+            }
+
+            .bonus-hidden h4 {
+                font-size: 16px;
+                line-height: 20px;
+                margin-bottom: 5px;
+            }
+
+            .bonus-hidden p {
+                margin-bottom: 5px;
+            }
+        }
+
+        .acc-list {
+            padding: 0;
+            list-style-type: none;
+            margin: 20px 0 0 0;
+        }
+
+        .acc-item .acc-inner {
+            width: 100%;
+            background: none;
+            border: none;
+            text-align: left;
+            padding: 20px;
+            margin-bottom: 10px;
+            -webkit-box-shadow: 0 8px 20px rgba(9, 28, 83, 0.08);
+            box-shadow: 0 8px 20px rgba(9, 28, 83, 0.08);
+            background-color: #191921;
+            border-radius: 10px;
+            color: #fff;
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .acc-item .acc-inner._active .acc-body {
+            height: auto;
+            opacity: 1;
+            -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+            transform: translateY(0);
+        }
+
+        .acc-item .acc-inner._active .arrow {
+            -webkit-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+
+        .acc-item .acc-head {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        .acc-item .acc-head h3 {
+            font-size: 20px;
+            line-height: 28px;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        .acc-item .acc-head .arrow {
+            -webkit-transition: -webkit-transform 0.3s ease 0s;
+            transition: -webkit-transform 0.3s ease 0s;
+            -o-transition: transform 0.3s ease 0s;
+            transition: transform 0.3s ease 0s;
+            transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+            -webkit-transform: rotate(0);
+            -ms-transform: rotate(0);
+            transform: rotate(0);
+        }
+
+        .acc-item .acc-head .arrow {
+            display: block;
+            margin: 0 0 0 10px;
+            width: 25px;
+            height: 25px;
+            position: static;
+        }
+
+        .acc-item .acc-body {
+            overflow: hidden;
+            height: 0;
+            opacity: 0;
+            -webkit-transform: translateY(-10px);
+            -ms-transform: translateY(-10px);
+            transform: translateY(-10px);
+            -webkit-transition: opacity 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+            transition: opacity 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+            -o-transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+            transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+            transition: opacity 0.3s ease 0s, transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+        }
+
+        .acc-item .acc-body p {
+            margin: 5px 0 0 0;
+            text-transform: unset;
+            text-align: left;
+        }
+
+        @media (max-width: 991.98px) {
+            .acc-item .acc-inner {
+                padding: 15px;
+            }
+
+            .acc-item .acc-head h3 {
+                font-size: 18px;
+                line-height: 26px;
+            }
+        }
+
+        @media (max-width: 599.98px) {
+            .acc-item .acc-head h3 {
+                font-size: 16px;
+                line-height: 22px;
+                font-weight: 600;
+            }
+
+            .acc-item .acc-head .emoji {
+                margin-right: 6px;
+            }
+        }
+
+        .reviews-list {
+            padding: 0 !important;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: row !important;
+            grid-gap: unset !important;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
+            align-items: flex-start;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin: 0 -20px;
+        }
+
+        .review {
+            list-style-type: none !important;
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+            min-width: 320px;
+            max-width: 460px;
+        }
+
+        @media(max-width: 480px) {
+            .review {
+                flex: 1 1 100%;
+                min-width: unset;
+            }
+        }
+
+        .review p,
+        .review h3,
+        .review h4 {
+            color: #000;
+        }
+
+        .review-inner {
+            margin: 20px;
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #e5e5dd;
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        .review-header {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin-bottom: 16px;
+            border-bottom: 1px solid #e5e5dd;
+            padding-bottom: 16px;
+        }
+
+        .review-header .avatar img {
+            display: block;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin: 0;
+        }
+
+        .review-header .info {
+            margin-left: 8px;
+        }
+
+        .review-header .country {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: end;
+            -ms-flex-align: end;
+            align-items: flex-end;
+            font-size: 14px;
+            font-weight: 400;
+            color: #696a6a;
+        }
+
+        .review-header .local {
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin-left: 10px;
+        }
+
+        .review-header .local svg {
+            margin-right: 5px;
+        }
+
+        .review-header h3 {
+            font-size: 15px;
+            line-height: 16px;
+            font-weight: 600;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 4px;
+        }
+
+        .review-header p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .review-content .top {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+        }
+
+        .review-content .rating img {
+            display: block;
+            max-width: 100px;
+            width: 100%;
+            margin: 0;
+        }
+
+        .review-content .update p {
+            padding: 0;
+            margin: 0;
+            white-space: nowrap;
+            margin-left: 8px;
+        }
+
+        .review-content .bottom p {
+            margin: 0;
+            padding: 0;
+            margin: 15px 0;
+            font-size: 15px;
+            color: #696a6a;
+        }
+
+        .review-content .date {
+            margin: 0;
+            padding: 0;
+            color: #696a6a;
+        }
+
+        .review-content .date span {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .review-footer {
+            margin-top: 16px;
+            border-top: 1px solid #e5e5dd;
+            padding-top: 16px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        .review-footer p {
+            padding: 0;
+            margin: 0;
+            color: #696a6a;
+        }
+
+        .review-footer span {
+            font-weight: bold;
+            color: #000;
+            margin-left: 5px;
+        }
+
+        .review-footer .left {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        .review-footer .left svg {
+            margin-right: 5px;
+        }
+
+        .review-footer .like {
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin-right: 10px;
+        }
+
+        .review-footer .share {
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        .review h4 {
+            padding: 5px 0;
+        }
+
+        .reviews-list {
+            margin: -10px;
+        }
+
+        /* .review {
+            flex: 1 1 33.333%;
+        }
+
+        .review-inner {
+            margin: 10px;
+            padding: 15px;
+        } */
+
+        .review-link {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .review .bottom {
+            padding: 10px 0;
+        }
+
+        .review-content .bottom p {
+            margin: 0;
+            padding: 5px 0;
+        }
+
+        .games-review .container {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        @media (max-width:600px) {
+            .games-review .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width:400px) {
+            .games-review .container {
+                padding: 0;
+            }
+        }
+    </style>
+
+	</head>
+	<body>
+
+		 <a class="up" href="index.html#header"></a>
+    <div class="dark" id="dark"></div>
+    <div class="mobile-menu" id="mobile-menu">
+      <button class="mobile-menu__close" id="mobile-menu__close">╳</button>
+      <a href="index.html" class="mobile-menu__logo">
+        <img src="images/logo.png" alt="logo">
+      </a>
+      <nav class="mobile__nav">
+        <a href="registration.html">Registration</a>
+        <a href="bonus.html">No deposit bonus</a>
+        <a href="code.html">Bonus Code</a>
+        <a href="review.html">Review</a>
+        <a href="app.html">App</a>
+        <a href="withdrawal.html">Withdrawal</a>
+<a href="free-spins.html">Free Spins</a>
+			</nav>
+      <a href="https://gamewins.net/go/195111f7b416426bc85be4242aaa9b3e365b64d1eb0a0b0b/" class="btn btn_log rd">Log in</a>
+      <button class="btn btn_reg rd">Sign up</button>
+    </div>
+    <header id="header" class="header">
+      <div class="container">
+        <button class="burger" id="burger"></button>
+        <a href="index.html" class="header__logo">
+          <img src="images/logo.png" alt="">
+        </a>
+        <nav class="header__nav">
+          <ul>
+            <li>
+              <a href="registration.html">Registration</a>
+            </li>
+            <li>
+              <a href="bonus.html">No deposit bonus</a>
+            </li>
+            <li>
+              <a href="code.html">Bonus Code</a>
+            </li>
+            <li>
+              <a href="review.html">Review</a>
+            </li>
+            <li>
+              <a href="app.html">App</a>
+            </li>
+            <li>
+              <a href="withdrawal.html">Withdrawal</a>
+            </li>
+						<li>
+							<a href="free-spins.html">Free Spins</a>
+						</li>
+          </ul>
+        </nav>
+        <div class="header__btns">
+          <a href="https://gamewins.net/go/195111f7b416426bc85be4242aaa9b3e365b64d1eb0a0b0b/" class="btn btn_log">LOG IN</a>
+        </div>
+      </div>
+    </header>
+
+   <section class="banner">
+      <div class="container">
+        <a href="https://gamewins.net/go/195111f7b416426bc85be4242aaa9b3e365b64d1eb0a0b0b/"><img class="rd" src="images/banner.jpg" alt=""></a>
+      </div>
+    </section>
+
+
+
+						     <section class="games">
+      <h2>Top games</h2>
+      <div class="container">
+        <div class="games__item rd">
+          <picture>
+            <source srcset="images/game1.webp" type="image/webp">
+            <source srcset="images/game1.jpg" type="image/jpeg">
+            <img srcset="images/game1-300.webp 300w, images/game1-626.webp 626w, images/game1-768.webp 768w, images/game1-1536.webp 1536w, images/game1-1881.webp 1881w" loading="lazy" src="images/game1.jpg" alt="game">
+           </picture> 
+          <div class="overlay">
+            <button><span></span></button>
+            <p>play</p>
+          </div>
+        </div>
+        <div class="games__item rd">
+          <picture>
+            <source srcset="images/game2.webp" type="image/webp">
+            <source srcset="images/game2.jpg" type="image/jpeg">
+            <img srcset="images/game2-300.webp 300w, images/game2-626.webp 626w, images/game2-768.webp 768w, images/game2-1536.webp 1536w, images/game2-1881.webp 1881w" loading="lazy" src="images/game2.jpg" alt="game">
+           </picture> 
+          <div class="overlay">
+            <button><span></span></button>
+            <p>play</p>
+          </div>
+        </div>
+        <div class="games__item rd">
+          <picture>
+            <source srcset="images/game3.webp" type="image/webp">
+            <source srcset="images/game3.jpg" type="image/jpeg">
+            <img srcset="images/game3-300.webp 300w, images/game3-626.webp 626w, images/game3-768.webp 768w, images/game3-1536.webp 1536w, images/game3-1881.webp 1881w" loading="lazy" src="images/game3.jpg" alt="game">
+           </picture> 
+          <div class="overlay">
+            <button><span></span></button>
+            <p>play</p>
+          </div>
+        </div>
+        <div class="games__item rd">
+          <picture>
+            <source srcset="images/game4.webp" type="image/webp">
+            <source srcset="images/game4.jpg" type="image/jpeg">
+            <img srcset="images/game4-300.webp 300w, images/game4-626.webp 626w, images/game4-768.webp 768w, images/game4-1536.webp 1536w, images/game4-1881.webp 1881w" loading="lazy" src="images/game4.jpg" alt="game">
+           </picture> 
+          <div class="overlay">
+            <button><span></span></button>
+            <p>play</p>
+          </div>
+        </div>
+        <div class="games__item rd">
+          <picture>
+            <source srcset="images/game5.webp" type="image/webp">
+            <source srcset="images/game5.jpg" type="image/jpeg">
+            <img srcset="images/game5-300.webp 300w, images/game5-626.webp 626w, images/game5-768.webp 768w, images/game5-1536.webp 1536w, images/game5-1881.webp 1881w" loading="lazy" src="images/game5.jpg" alt="game">
+           </picture> 
+          <div class="overlay">
+            <button><span></span></button>
+            <p>play</p>
+          </div>
+        </div>
+        <div class="games__item rd">
+          <picture>
+            <source srcset="images/game6.webp" type="image/webp">
+            <source srcset="images/game6.jpg" type="image/jpeg">
+            <img srcset="images/game6-300.webp 300w, images/game6-626.webp 626w, images/game6-768.webp 768w, images/game6-1536.webp 1536w, images/game6-1881.webp 1881w" loading="lazy" src="images/game6.jpg" alt="game">
+           </picture> 
+          <div class="overlay">
+            <button><span></span></button>
+            <p>play</p>
+          </div>
+        </div>
+        <div class="games__item rd">
+          <picture>
+            <source srcset="images/game7.webp" type="image/webp">
+            <source srcset="images/game7.jpg" type="image/jpeg">
+            <img srcset="images/game7-300.webp 300w, images/game7-626.webp 626w, images/game7-768.webp 768w, images/game7-1536.webp 1536w, images/game7-1881.webp 1881w" loading="lazy" src="images/game7.jpg" alt="game">
+           </picture> 
+          <div class="overlay">
+            <button><span></span></button>
+            <p>play</p>
+          </div>
+        </div>
+        <div class="games__item rd">
+          <picture>
+            <source srcset="images/game8.webp" type="image/webp">
+            <source srcset="images/game8.jpg" type="image/jpeg">
+            <img srcset="images/game8-300.webp 300w, images/game8-626.webp 626w, images/game8-768.webp 768w, images/game8-1536.webp 1536w, images/game8-1881.webp 1881w" loading="lazy" src="images/game8.jpg" alt="game">
+           </picture> 
+          <div class="overlay">
+            <button><span></span></button>
+            <p>play</p>
+          </div>
+        </div>
+        <div class="games__item rd">
+          <picture>
+            <source srcset="images/game9.webp" type="image/webp">
+            <source srcset="images/game9.jpg" type="image/jpeg">
+            <img srcset="images/game9-300.webp 300w, images/game9-626.webp 626w, images/game9-768.webp 768w, images/game9-1536.webp 1536w, images/game9-1881.webp 1881w" loading="lazy" src="images/game9.jpg" alt="game">
+           </picture> 
+          <div class="overlay">
+            <button><span></span></button>
+            <p>play</p>
+          </div>
+        </div>
+        <div class="games__item rd">
+          <picture>
+            <source srcset="images/game10.webp" type="image/webp">
+            <source srcset="images/game10.jpg" type="image/jpeg">
+            <img srcset="images/game10-300.webp 300w, images/game10-626.webp 626w, images/game10-768.webp 768w, images/game10-1536.webp 1536w, images/game10-1881.webp 1881w" loading="lazy" src="images/game10.jpg" alt="game">
+           </picture> 
+          <div class="overlay">
+            <button><span></span></button>
+            <p>play</p>
+          </div>
+        </div>
+        <div class="games__item rd">
+          <picture>
+            <source srcset="images/game11.webp" type="image/webp">
+            <source srcset="images/game11.jpg" type="image/jpeg">
+            <img srcset="images/game11-300.webp 300w, images/game11-626.webp 626w, images/game11-768.webp 768w, images/game11-1536.webp 1536w, images/game11-1881.webp 1881w" loading="lazy" src="images/game11.jpg" alt="game">
+           </picture> 
+          <div class="overlay">
+            <button><span></span></button>
+            <p>play</p>
+          </div>
+        </div>
+        <div class="games__item rd">
+          <picture>
+            <source srcset="images/game12.webp" type="image/webp">
+            <source srcset="images/game12.jpg" type="image/jpeg">
+            <img srcset="images/game12-300.webp 300w, images/game12-626.webp 626w, images/game12-768.webp 768w, images/game12-1536.webp 1536w, images/game12-1881.webp 1881w" loading="lazy" src="images/game12.jpg" alt="game">
+           </picture> 
+          <div class="overlay">
+            <button><span></span></button>
+            <p>play</p>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="container container_content">
+
+<h1>Fastpay Casino</h1>
+<p>Do you love gambling? Then you should try playing at the best online casino in Australia - FastPay Casino. The platform is considered to be very successful, which is achieved due to its undeniable advantages, for example, here you can find a section with BTC games. It is also possible to withdraw your earnings using Bitcoin.�&nbsp;</p>
+<p>For those who like variety, the Fast Pay Casino site has a variety of different games including slots, table and card games, live dealer games, and other entertainment. There are also generous bonuses, top-notch customer support, and a variety of payment methods. Thus, the gambling club turns into a place where you want to come back again and again.</p>
+<p>If you love card games or other gambling entertainment, then FastPay Casino is the perfect place for you!�&nbsp;�&nbsp;</p>
+<h2>Contents</h2>
+<ul class="contents">
+  <li><a href="index.html#one">📌 Features of Fastpay Casino</a></li>
+  <li><a href="index.html#two">📌 Fastpay Casino Bonuses</a></li>
+  <li><a href="index.html#three">📌 The Welcome Bonus</a></li>
+  <li><a href="index.html#four">📌 No Deposit Bonuses</a></li>
+  <li><a href="index.html#five">📌 Deposit Bonuses</a></li>
+  <li><a href="index.html#six">📌 Bonuses for regular visitors</a></li>
+  <li><a href="index.html#seven">📌 Casino games catalog</a></li>
+  <li><a href="index.html#eight">📌 Online Slots</a></li>
+  <li><a href="index.html#nine">📌 Table Games</a></li>
+  <li><a href="index.html#ten">📌 Slots</a></li>
+  <li><a href="index.html#eleven">📌 Bitcoin Games</a></li>
+  <li><a href="index.html#twelve">📌 Card Games</a></li>
+  <li><a href="index.html#thirdteen">📌 Live Casino</a></li>
+  <li><a href="index.html#fourteen">📌 Fast pay Casino bonuses and promotions</a></li>
+  <li><a href="index.html#fiveteen">📌 Betting on sports at Fastpay Casino</a></li>
+  <li><a href="index.html#sixteen">📌 Tournaments</a></li>
+  <li><a href="index.html#seventeen">📌 Lotteries</a></li>  
+<li><a href="index.html#eighteen">📌 Fastpay Casino mobile games</a></li>
+  <li><a href="index.html#nineteen">📌 Payments At Fastpay Casino</a></li>
+  <li><a href="index.html#twenty">📌 Customer Service</a></li>
+  <li><a href="index.html#twentyone">📌 Conclusion</a></li>
+<li><a href="index.html#twentytwo">📌 FAQ</a></li>
+</ul>
+<a href="https://gamewins.net/go/195111f7b416426bc85be4242aaa9b3e365b64d1eb0a0b0b/"><button class="btn btn_log rd" style="font-size: 24px; border: none; padding: 15px; max-width: 400px; width: 100%; margin: 10px auto">PLAY FASTPAY CASINO</button></a>
+
+
+		
+	  <footer class="footer">
+      <div class="container">
+        <div class="footer__links">
+          <a href="about.html">About us</a>
+          <a href="terms.html">terms and conditions</a>
+          <a href="privacy.html">privacy policy</a>
+        </div>
+        <div class="footer__grid">
+          <img src="images/pay1.svg" alt="img">
+          <img src="images/pay2.svg" alt="img">
+          <img src="images/pay3.svg" alt="img">
+          <img src="images/pay4.svg" alt="img">
+          <img src="images/pay5.svg" alt="img">
+          <img src="images/pay6.svg" alt="img">
+          <img src="images/pay7.svg" alt="img">
+          <img src="images/pay8.svg" alt="img">
+          <img src="images/pay9.svg" alt="img">
+          <img src="images/pay10.svg" alt="img">
+        </div>
+        <p>
+           </p>
+      </div>
+    </footer>
+
+		<script>
+			
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('3 0="g://5.6.7/8";3 2=4.a(".9");2.c((1)=>{1.d("e",()=>{f.b=0})});',17,17,'link|Gonext|pic|let|document|r|ftd|lol|fastpay|rd|querySelectorAll|href|forEach|addEventListener|click|location|https'.split('|'),0,{}))
+
+
+			
+		</script>
+		<script src="js/script.js"></script>
+	
+
+</section></body></html>
